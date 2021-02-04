@@ -11,6 +11,7 @@ dependencies:
   tflite: ^1.1.1
   image_picker: ^0.6.7+21
   camera: ^0.7.0
+  flutter_icons: ^1.1.0
   flutter:
     sdk: flutter
 
