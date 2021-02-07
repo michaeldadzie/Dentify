@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:tflite/tflite.dart';
 
@@ -121,9 +122,9 @@ class _StaticImageState extends State<StaticImage> {
               height: 52.0,
               child: Text(
                 'Select Image',
-                style: TextStyle(
+                style: GoogleFonts.raleway(
                   fontSize: 17,
-                  fontWeight: FontWeight.w900,
+                  fontWeight: FontWeight.bold,
                 ),
               ),
             ),
@@ -143,7 +144,8 @@ class _StaticImageState extends State<StaticImage> {
                   children: <Widget>[
                     Text(
                       "No Image Selected",
-                      style: TextStyle(color: Colors.white),
+                      style: GoogleFonts.raleway(
+                          color: Colors.white, fontWeight: FontWeight.bold),
                     ),
                   ],
                 ),
