@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 
+import 'package:google_fonts/google_fonts.dart';
+
 class BoundingBox extends StatelessWidget {
   final List<dynamic> results;
   final int previewH;
@@ -61,7 +63,7 @@ class BoundingBox extends StatelessWidget {
             ),
             child: Text(
               "${re["detectedClass"]} ${(re["confidenceInClass"] * 100).toStringAsFixed(0)}%",
-              style: TextStyle(
+              style: GoogleFonts.raleway(
                 color: Colors.amber,
                 fontSize: 14.0,
                 fontWeight: FontWeight.bold,
