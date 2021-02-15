@@ -1,9 +1,9 @@
 import 'package:camera/camera.dart';
-import 'package:dentify/widgets/bounding_box.dart';
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 import 'package:tflite/tflite.dart';
 import 'package:dentify/widgets/camera.dart';
+import '../widgets/bounding_box.dart';
 
 class LiveFeed extends StatefulWidget {
   final List<CameraDescription> cameras;
