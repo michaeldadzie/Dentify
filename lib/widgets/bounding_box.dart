@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
-
 import 'package:google_fonts/google_fonts.dart';
 
 class BoundingBox extends StatelessWidget {
