@@ -2,8 +2,8 @@ import 'package:dentify/detection/realtime.dart';
 import 'package:dentify/detection/static.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
-import 'package:dentify/main.dart';
-import 'package:dentify/widgets/dot.dart';
+import '../main.dart';
+import '../widgets/dot.dart';
 
 class TabScreen extends StatefulWidget {
   @override
