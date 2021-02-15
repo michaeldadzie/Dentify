@@ -1,7 +1,7 @@
 import 'package:camera/camera.dart';
-import 'screens/tab_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'screens/tab_screen.dart';
 
 List<CameraDescription> cameras;
 
