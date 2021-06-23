@@ -192,8 +192,7 @@ class _StaticImageState extends State<StaticImage> {
           // ),
         ],
       ),
-      body: ClipRRect(
-        borderRadius: BorderRadius.circular(30),
+      body: SafeArea(
         child: Container(
           child: Stack(children: stackChildren),
         ),
